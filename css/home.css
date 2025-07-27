@@ -350,3 +350,66 @@ body {
     display: flex;
     justify-content: center;
 }
+.button-a-h1{
+    margin-top: 150px;
+    text-align: center;
+}
+.buttons{
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+}
+.five-page{
+    margin-top: 60px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.five-page img{
+    width: 250px;
+    border-radius: 8px;
+}
+.five-page-1{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.five-page-1 img{
+    width: 250px;
+    border-radius: 8px;
+}
+.both{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.im img{
+   border-radius: 50%;
+   width: 90px;
+}
+.dash{
+    color: #d4a762;
+}
+.alll{
+    font-size: 12px;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+}
+.h h1{
+    font-size: 20px;
+    position:absolute;
+    margin-top: 0px;
+}
+.h h2{
+    margin-top: 20px;
+  justify-content: end;
+  display: flex;
+  color: #d4a762;
+}
+.p{
+    width: 350px;
+    opacity: 0.7;
+}
