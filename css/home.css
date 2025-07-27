@@ -1,0 +1,246 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 140px;
+}
+
+.box {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
+    ;
+}
+
+.box a:hover {
+    color: #d4a762;
+    transition: 0.3s;
+}
+
+.b-b-n a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.s-a-b {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search i {
+    background-color: #d4a762;
+    padding: 11px 11px;
+    border-radius: 50%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.search i:hover {
+    background-color: black;
+    color: #d4a762;
+    border: none;
+
+}
+
+.b-b-n a {
+    background-color: #d4a762;
+    padding: 9px 19px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.b-b-n a:hover {
+    background-color: black;
+    color: #d4a762;
+    border: none;
+
+}
+
+.first-page {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
+
+.button-1 {
+    font-size: 13px;
+    padding: 6px 20px;
+    border-radius: 40px;
+    border: 1px solid #d4a762;
+    background-color: #fffcf8;
+}
+
+.para h1 {
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Playball', cursive !important;
+}
+
+.highlight {
+    color: #d4a762;
+}
+
+.book-now a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background-color: #d4a762;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.book-now a:hover {
+    background-color: black;
+    color: #d4a762;
+    border: none;
+}
+
+.know-more a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background-color: #d4a762;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.know-more a:hover {
+    background-color: black;
+    color: #d4a762;
+    border: none;
+}
+
+.both {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.img-f img {
+    width: 400px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+#humber {
+    display: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: none;
+    position: static;
+    padding: 0;
+    color: black;
+}
+
+.box a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.second-page {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.image-2 img {
+    border-radius: 8px;
+    width: 400px;
+}
+
+.button-2 {
+    font-size: 13px;
+    padding: 6px 30px;
+    border-radius: 40px;
+    border: 1px solid #d4a762;
+    background-color: #fffcf8;
+}
+
+.para-and-h1 h1 {
+    font-family: 'Playball', cursive !important;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.para-and-h1 p {
+    width: 550px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.p-1 {
+    font-size: 13px;
+}
+
+.four {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.about {
+    margin-top: 30px;
+}
+
+.about a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background-color: #d4a762;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.about a:hover {
+    background-color: black;
+    color: #d4a762;
+    border: none;
+}
