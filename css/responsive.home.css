@@ -3,6 +3,10 @@
         display: none;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     .first-page {
         flex-direction: column;
         width: 100%;
@@ -119,23 +123,48 @@
         width: 100%;
         gap: 10px;
     }
-    .third-page{
+
+    .third-page {
         flex-direction: column;
     }
-    .back-1{
+
+    .back-1 {
         width: 100%;
     }
-    .back-2{
+
+    .back-2 {
         width: 100%;
     }
+
     .video {
         width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
     }
-      .video ifarme{
+
+    .video ifarme {
         width: 100%;
         height: 100%;
+    }
+
+    .four-page {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .four-page-1 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .four-b {
+        width: 80%;
+    }
+
+    .four-b p {
+        width: 100%;
     }
 }
