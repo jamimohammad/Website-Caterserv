@@ -521,3 +521,52 @@ input[type="email"] {
     color: #d4a762;
     border: none;
 }
+.eight-page{
+    margin-top: 150px;
+    text-align: center;
+}
+.all-8{
+    width: 260px;
+    height: 400px;
+    background-color: black;
+    border-radius: 8px;
+}
+.all-8:hover i{
+    background-color: #d4a762;
+    color: #fff;
+}
+.all-8:hover{
+background-color: #d4a762;
+transition: 1s;
+}
+.all-8:hover h1{
+    color: white;
+    transition: 1s;
+}
+
+.all-8 img{
+    width: 260px;
+    border-radius: 8px;
+}
+.all-8 h1{
+    color: #d4a762;
+      margin-top: -5px;
+}
+.all-8 p{
+    margin-top: -10px;
+    color: white;
+}
+.fa-solid{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -60px;
+    background-color: #d4a762;
+    padding: 13px 13px;
+    border-radius: 50%;
+}
+
+.back-9{
+    display: flex;
+    justify-content: center;
+gap: 25px;
+}
