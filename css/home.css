@@ -1,6 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body {
     font-family: 'Arial', sans-serif;
-}
+} 
 
 .header {
     margin: 10px;
@@ -10,9 +14,9 @@ body {
 
 }
 
-.logo img {
+/* .logo img {
     width: 140px;
-}
+} */
 
 .box {
     display: flex;
@@ -531,10 +535,7 @@ input[type="email"] {
     background-color: black;
     border-radius: 8px;
 }
-.all-8:hover i{
-    background-color: #d4a762;
-    color: #fff;
-}
+
 .all-8:hover{
 background-color: #d4a762;
 transition: 1s;
@@ -553,20 +554,160 @@ transition: 1s;
       margin-top: -5px;
 }
 .all-8 p{
-    margin-top: -10px;
+    margin-top: 10px;
     color: white;
 }
-.fa-solid{
-    position: absolute;
-    margin-top: 20px;
-    margin-left: -60px;
-    background-color: #d4a762;
-    padding: 13px 13px;
-    border-radius: 50%;
-}
-
 .back-9{
     display: flex;
     justify-content: center;
 gap: 25px;
+}
+.pa{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.move{
+    border: 1px solid #d4a762;
+    width: 360px;
+    height: 250px;
+    border-radius: 8px;
+    display: flex;
+    /* gap: 20px; */
+
+}
+
+.move img{
+    margin-top: 10px;
+    margin-left: 20px;
+border-radius: 50%;
+width: 80px;
+height: 80px;
+}
+.h-p{
+    margin-left: -230px;
+    font-size: 15px;
+}
+.stars{
+    margin-left: 20px;
+}
+.pppp p{
+    margin-left: 20px;
+    width: 330px;
+    font-size: 15px;
+}
+.page-nine{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20حط;
+}
+.imaaa img{
+    width: 340px;
+    border-radius: 8px;
+}
+.photo{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.small{
+    margin-left: 30px;
+    margin-top: -50px;
+    position: absolute;
+width:280px;
+height: 100px;
+background-color: white;
+border-radius: 10px;
+}
+.small-chah{
+    position: absolute;
+    margin-top: -60px;
+    border: 1px solid #d4a762;
+    width: 60px;
+    height: 80px;
+    border-radius: 3px;
+    background-color: #d4a762;
+}
+.ten-page{
+    margin-top: 150px;
+    margin-bottom:100px ;
+}
+.small p{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+}
+.small-chah p{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.footer img{
+width: 100px;
+}
+.p-f p{
+width: 200px;
+font-size: 13px;
+opacity: 0.5;
+line-height:1.5;
+
+}
+.i-p{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.i-p p{
+font-size: 13px;
+opacity: 0.6;
+line-height: 1.5;
+}
+
+.memua img{
+border: 1px solid #d4a762;
+border-radius:50%;
+width: 70px;
+padding: 6px;
+}
+.hhhhhh{
+    gap: 20px;
+    display: flex;
+align-items: center;
+}
+.footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.f-i-t{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.f,
+.i,
+.t{
+    margin-top: 20px;
+    text-align: center;
+    border:1px solid #d4a762;
+border-radius: 50%;
+background-color: #d4a762;
+padding: 5px;
+
+}
+.footer-chah {
+    margin-top: 100px;
+  background-color: #000;
+  color: white;              
+  padding: 20px 0;        
+  width: 100%;                  
+  bottom: 0;
+display: flex;
+justify-content: center;
+gap: 600px;
+}
+.footer-chah p{
+    color: #d4a762;
+    font-size: 15px;
 }
