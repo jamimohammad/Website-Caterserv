@@ -477,4 +477,31 @@ width: 100%;
     width: 100%;
     height: auto;
 }
+.page-nine{
+width: 100%;
+}
+.move{
+    width: 100%;
+}
+.pppp p{
+    width: 90%;
+}
+.h-p{
+    display: none;
+}
+.small{
+    display: none;
+}
+.photo{
+    width: 100%;
+}
+.photo img{
+    width: 100%;
+}
+.footer{
+    gap: 10px;
+}
+.footer-chah{
+    gap: 50px;
+}
 }
