@@ -52,7 +52,7 @@ body {
 
 .search i {
     background-color: #d4a762;
-    padding: 11px 11px;
+    padding: 11px 10px;
     border-radius: 50%;
     font-size: 15px;
     cursor: pointer;
@@ -86,7 +86,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 180px;
+    gap: 170px;
 }
 
 .button-1 {
@@ -185,7 +185,7 @@ body {
 }
 
 .second-page {
-    margin-top: 250px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
     gap: 80px;
@@ -209,14 +209,21 @@ body {
     font-family: 'Playball', cursive !important;
     font-weight: normal;
     font-size: 40px;
+    margin-top: -60px;
 }
 
 .para-and-h1 p {
+    margin-top: 40px;
     width: 550px;
     font-size: 13px;
     opacity: 0.7;
 }
-
+.p-12{
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
 .p-1 {
     font-size: 13px;
 }
@@ -295,12 +302,13 @@ body {
 }
 
 .pa p {
+    margin-top: -80px;
     font-size: 40px;
     font-family: 'Playball', cursive !important;
 }
 
 .b-p {
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -314,19 +322,21 @@ body {
 
 .four-b {
     text-align: center;
-    border: 1px solid black;
-    width: 220px;
-    height: 290px;
+    width: 245px;
+    height: 300px;
     background-color: white;
+        box-shadow: 0px 36px 60px 0px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 .four-b p {
+    margin: 30px;
     font-size: 11px;
-    width: 220px;
     text-align: center;
 }
-
+.four-b h3{
+    margin-top: 20px;
+}
 .read-more {
     margin-top: 30px;
 }
@@ -382,7 +392,7 @@ body {
 }
 
 .five-page img {
-    width: 250px;
+    width: 240px;
     border-radius: 8px;
 }
 
@@ -394,7 +404,7 @@ body {
 }
 
 .five-page-1 img {
-    width: 250px;
+    width: 240px;
     border-radius: 8px;
 }
 
@@ -402,7 +412,7 @@ body {
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 80px;
 }
 
 .im img {
@@ -448,6 +458,7 @@ body {
 
 .img1-2 img {
     width: 124px;
+   height: 350px;
 }
 
 .para-and-h1 {
@@ -530,7 +541,7 @@ input[type="email"] {
     text-align: center;
 }
 .all-8{
-    width: 260px;
+    width: 245px;
     height: 400px;
     background-color: black;
     border-radius: 8px;
@@ -546,7 +557,7 @@ transition: 1s;
 }
 
 .all-8 img{
-    width: 260px;
+    width: 245px;
     border-radius: 8px;
 }
 .all-8 h1{
@@ -568,11 +579,12 @@ gap: 25px;
 }
 
 .move{
-    border: 1px solid #d4a762;
-    width: 360px;
+    border: 0.5px solid #d4a762;
+    width: 330px;
     height: 250px;
     border-radius: 8px;
     display: flex;
+        background-color: rgb(255, 252, 248)
     /* gap: 20px; */
 
 }
@@ -593,14 +605,14 @@ height: 80px;
 }
 .pppp p{
     margin-left: 20px;
-    width: 330px;
+    width: 320px;
     font-size: 15px;
 }
 .page-nine{
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    gap: 20حط;
+    gap: 20px;
 }
 .imaaa img{
     width: 340px;
@@ -653,23 +665,25 @@ line-height:1.5;
 
 }
 .i-p{
-    gap: 10px;
+    margin-top: 15px;
+    gap: 30px;
     display: flex;
     align-items: center;
 }
 .i-p p{
 font-size: 13px;
 opacity: 0.6;
-line-height: 1.5;
+/* line-height: 1.5; */
 }
 
 .memua img{
 border: 1px solid #d4a762;
 border-radius:50%;
-width: 70px;
+width: 50px;
 padding: 6px;
 }
 .hhhhhh{
+    margin-top: 15px;
     gap: 20px;
     display: flex;
 align-items: center;
@@ -678,7 +692,7 @@ align-items: center;
     margin-top: 200px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 65px;
 }
 .f-i-t{
     gap: 30px;
