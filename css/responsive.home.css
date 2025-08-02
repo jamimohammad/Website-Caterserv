@@ -190,13 +190,12 @@
 
     .both {
         flex-direction: column;
-        width: 100%;
+     align-items: center;
     }
 
     .sex-page {
         flex-direction: column;
         text-align: center;
-        width: 100%;
     }
 
     .alll {
@@ -270,6 +269,7 @@
     .back-9 {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
 
     .all-8 {
@@ -307,7 +307,7 @@
     }
 
     .pppp p {
-        width: 80%;
+        width: 95%;
         text-align: center;
     }
 
@@ -352,6 +352,7 @@
     }
 
 }
+
 @media (max-width: 992px) and (min-width:768px) {
     #humber {
         display: block;
@@ -394,114 +395,170 @@
     .s-a-b {
         display: none;
     }
- .box {
+
+    .box {
         display: none;
     }
-.first-page{
-    gap: 0;
-}
-.second-page{
-    gap: 25px;
-    padding: 0 20px;
-    width: 100%;
-}
-.image-2 img{
-    width: 100%;
-}
-.all-second{
-    width: 90%;
-}
-.para-and-h1 p{
-    width: 100%;
-    margin: 0;
-}
-.a-l{
-    width: 80%;
-}
-.third-page{
-    width: 100%;
-    flex-direction: column;
-}
-.video{
-    width: 100%;
-    text-align: center;
-}
-.video iframe{
-width: 70%;
-text-align: center;
-}
-   .back-1 {
+
+    .first-page {
+        gap: 0;
+    }
+
+    .second-page {
+        gap: 25px;
+        padding: 0 20px;
         width: 100%;
     }
-.back-2{
-    width: 70%;
+
+    .image-2 img {
+        width: 100%;
+    }
+
+    .all-second {
+        width: 90%;
+    }
+
+    .para-and-h1 p {
+        width: 100%;
+        margin: 0;
+    }
+
+    .a-l {
+        width: 80%;
+    }
+
+    .third-page {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .video {
+        width: 100%;
+        text-align: center;
+    }
+
+    .video iframe {
+        width: 70%;
+        text-align: center;
+    }
+
+    .back-1 {
+        width: 100%;
+    }
+
+    .back-2 {
+        width: 70%;
+    }
+
+    .four-page {
+        padding: 0 15px;
+    }
+
+    .four-page-1 {
+        padding: 0 15px;
+    }
+
+    .five-page {
+        width: 100%;
+    }
+
+    .img-1 {
+        width: 100%;
+    }
+
+    .img-1 img {
+        width: 100%;
+    }
+
+    .both {
+        width: 100%;
+        gap: 0;
+    }
+
+    .sex-page {
+        width: 100%;
+    }
+
+    .alll {
+        width: 100%;
+    }
+
+    .p {
+        width: 100%;
+    }
+
+    .seven-page {
+        width: 100%;
+    }
+
+    .image-back img {
+        width: 100%;
+    }
+
+    .all-8 {
+        width: 100%;
+    }
+
+    .all-8 img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .page-nine {
+        width: 100%;
+    }
+
+    .move {
+        width: 100%;
+    }
+
+    .pppp p {
+        width: 90%;
+    }
+
+    .h-p {
+        display: none;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .photo img {
+        width: 100%;
+    }
+
+    .footer {
+        gap: 10px;
+    }
+
+    .footer-chah {
+        gap: 50px;
+    }
 }
-.four-page{
-    padding: 0 15px;
-}
-.four-page-1{
-    padding: 0 15px; 
-}
-.five-page{
+@media (max-width: 1200px) and (min-width:992px){
+    .b-b-n{
+        display: none;
+    }
+    .first-page{
+        gap: 40px;
+    }
+    .second-page{
+        width: 100%;
+        gap: 30px;
+    }
+    .third-page{
+        width: 100%;
+        gap: 40px;
+    }
+    .ten-page{
+        width: 100%;
+    }
+  .photo img{
     width: 100%;
-}
-.img-1{
-    width: 100%;
-}
-.img-1 img{
-    width: 100%;
-}
-.both{
-    width: 100%;
-    gap: 0;
-}
-.sex-page{
-    width: 100%;
-}
-.alll{
-    width: 100%;
-}
-.p{
-    width: 100%;
-}
-.seven-page{
-    width: 100%;
-}
-.image-back img{
-width: 100%;
-}
-.all-8{
-    width: 100%;
-}
-.all-8 img{
-    width: 100%;
-    height: auto;
-}
-.page-nine{
-width: 100%;
-}
-.move{
-    width: 100%;
-}
-.pppp p{
-    width: 90%;
-}
-.h-p{
-    display: none;
-}
-.small{
-    display: none;
-}
-.photo{
-    width: 100%;
-}
-.photo img{
-    width: 100%;
-}
-.footer{
-    gap: 10px;
-}
-.footer-chah{
-    gap: 50px;
-}
+  }
 }
