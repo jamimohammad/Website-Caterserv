@@ -3,9 +3,10 @@
         display: none;
     }
 
-    /* body {
+    body {
         overflow-x: hidden;
-    } */
+    }
+
     .first-page {
         flex-direction: column;
         width: 100%;
@@ -190,7 +191,7 @@
 
     .both {
         flex-direction: column;
-     align-items: center;
+        align-items: center;
     }
 
     .sex-page {
@@ -354,6 +355,10 @@
 }
 
 @media (max-width: 992px) and (min-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     #humber {
         display: block;
         position: absolute;
@@ -540,25 +545,35 @@
         gap: 50px;
     }
 }
-@media (max-width: 1200px) and (min-width:992px){
-    .b-b-n{
+
+@media (max-width: 1200px) and (min-width:992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .b-b-n {
         display: none;
     }
-    .first-page{
+
+    .first-page {
         gap: 40px;
     }
-    .second-page{
+
+    .second-page {
         width: 100%;
         gap: 30px;
     }
-    .third-page{
+
+    .third-page {
         width: 100%;
         gap: 40px;
     }
-    .ten-page{
+
+    .ten-page {
         width: 100%;
     }
-  .photo img{
-    width: 100%;
-  }
+
+    .photo img {
+        width: 100%;
+    }
 }
