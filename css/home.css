@@ -1,10 +1,11 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
+
 body {
     font-family: 'Arial', sans-serif;
-} 
+}
 
 .header {
     margin: 10px;
@@ -12,6 +13,10 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /* .logo img {
@@ -218,12 +223,14 @@ body {
     font-size: 13px;
     opacity: 0.7;
 }
-.p-12{
+
+.p-12 {
     margin: 20px;
     flex-direction: column;
     display: flex;
     gap: 10px;
 }
+
 .p-1 {
     font-size: 13px;
 }
@@ -302,7 +309,7 @@ body {
 }
 
 .pa p {
-    margin-top: -80px;
+    margin-top: 40px;
     font-size: 40px;
     font-family: 'Playball', cursive !important;
 }
@@ -325,7 +332,7 @@ body {
     width: 245px;
     height: 300px;
     background-color: white;
-        box-shadow: 0px 36px 60px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 36px 60px 0px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
@@ -334,9 +341,11 @@ body {
     font-size: 11px;
     text-align: center;
 }
-.four-b h3{
+
+.four-b h3 {
     margin-top: 20px;
 }
+
 .read-more {
     margin-top: 30px;
 }
@@ -458,7 +467,7 @@ body {
 
 .img1-2 img {
     width: 124px;
-   height: 350px;
+    height: 350px;
 }
 
 .para-and-h1 {
@@ -536,103 +545,116 @@ input[type="email"] {
     color: #d4a762;
     border: none;
 }
-.eight-page{
+
+.eight-page {
     margin-top: 150px;
     text-align: center;
 }
-.all-8{
+
+.all-8 {
     width: 245px;
     height: 400px;
     background-color: black;
     border-radius: 8px;
 }
 
-.all-8:hover{
-background-color: #d4a762;
-transition: 1s;
+.all-8:hover {
+    background-color: #d4a762;
+    transition: 1s;
 }
-.all-8:hover h1{
+
+.all-8:hover h1 {
     color: white;
     transition: 1s;
 }
 
-.all-8 img{
+.all-8 img {
     width: 245px;
     border-radius: 8px;
 }
-.all-8 h1{
+
+.all-8 h1 {
     color: #d4a762;
-      margin-top: -5px;
+    margin-top: -5px;
 }
-.all-8 p{
+
+.all-8 p {
     margin-top: 10px;
     color: white;
 }
-.back-9{
+
+.back-9 {
     display: flex;
     justify-content: center;
-gap: 25px;
+    gap: 25px;
 }
-.pa{
+
+.pa {
     margin-top: 150px;
     text-align: center;
 }
 
-.move{
+.move {
     border: 0.5px solid #d4a762;
-    width: 330px;
+    width: 350px;
     height: 250px;
     border-radius: 8px;
     display: flex;
-        background-color: rgb(255, 252, 248)
-    /* gap: 20px; */
-
+    background-color: rgb(255, 252, 248);
 }
 
-.move img{
+.move img {
     margin-top: 10px;
     margin-left: 20px;
-border-radius: 50%;
-width: 80px;
-height: 80px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
 }
-.h-p{
-    margin-left: -230px;
+
+.h-p {
+    margin-left: -200px;
     font-size: 15px;
 }
-.stars{
+
+.stars {
     margin-left: 20px;
 }
-.pppp p{
+
+.pppp p {
     margin-left: 20px;
-    width: 320px;
+    width: 300px;
     font-size: 15px;
 }
-.page-nine{
+
+.page-nine {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.imaaa img{
+
+.imaaa img {
     width: 340px;
     border-radius: 8px;
 }
-.photo{
+
+.photo {
     justify-content: center;
     display: flex;
     gap: 20px;
 }
-.small{
+
+.small {
     margin-left: 30px;
     margin-top: -50px;
     position: absolute;
-width:280px;
-height: 100px;
-background-color: white;
-border-radius: 10px;
+    width: 280px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
 }
-.small-chah{
+
+.small-chah {
     position: absolute;
     margin-top: -60px;
     border: 1px solid #d4a762;
@@ -641,87 +663,435 @@ border-radius: 10px;
     border-radius: 3px;
     background-color: #d4a762;
 }
-.ten-page{
+
+.ten-page {
     margin-top: 150px;
-    margin-bottom:100px ;
+    margin-bottom: 100px;
 }
-.small p{
+
+.small p {
     margin-top: 20px;
     margin-left: 100px;
     width: 200px;
 }
-.small-chah p{
+
+.small-chah p {
     margin-left: 15px;
     font-size: 20px;
 }
-.footer img{
-width: 100px;
+
+.footer img {
+    width: 100px;
 }
-.p-f p{
-width: 200px;
-font-size: 13px;
-opacity: 0.5;
-line-height:1.5;
+
+.p-f p {
+    width: 200px;
+    font-size: 13px;
+    opacity: 0.5;
+    line-height: 1.5;
 
 }
-.i-p{
+
+.i-p {
     margin-top: 15px;
     gap: 30px;
     display: flex;
     align-items: center;
 }
-.i-p p{
-font-size: 13px;
-opacity: 0.6;
-/* line-height: 1.5; */
+
+.i-p p {
+    font-size: 13px;
+    opacity: 0.6;
+    /* line-height: 1.5; */
 }
 
-.memua img{
-border: 1px solid #d4a762;
-border-radius:50%;
-width: 50px;
-padding: 6px;
+.memua img {
+    border: 1px solid #d4a762;
+    border-radius: 50%;
+    width: 50px;
+    padding: 6px;
 }
-.hhhhhh{
+
+.hhhhhh {
     margin-top: 15px;
     gap: 20px;
     display: flex;
-align-items: center;
+    align-items: center;
 }
-.footer{
+
+.footer {
     margin-top: 200px;
     display: flex;
     justify-content: center;
     gap: 65px;
 }
-.f-i-t{
+
+.f-i-t {
     gap: 30px;
     display: flex;
     justify-content: center;
 }
+
 .f,
 .i,
-.t{
+.t {
     margin-top: 20px;
     text-align: center;
-    border:1px solid #d4a762;
-border-radius: 50%;
-background-color: #d4a762;
-padding: 5px;
+    border: 1px solid #d4a762;
+    border-radius: 50%;
+    background-color: #d4a762;
+    padding: 5px;
 
 }
+
 .footer-chah {
     margin-top: 100px;
-  background-color: #000;
-  color: white;              
-  padding: 20px 0;        
-  width: 100%;                  
-  bottom: 0;
-display: flex;
-justify-content: center;
-gap: 600px;
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 600px;
 }
-.footer-chah p{
+
+.footer-chah p {
     color: #d4a762;
     font-size: 15px;
+
+}
+
+.para h1 {
+    opacity: 0;
+    transform: translateY(-100vh);
+    animation: slideDown 1s forwards;
+    animation-delay: 1s;
+}
+
+.button-1 {
+    opacity: 0;
+    transform: translateY(-100vh);
+    animation: slideDown 1s forwards;
+    animation-delay: 1s;
+}
+
+.both .book-now,
+.both .know-more {
+    opacity: 0;
+    transform: translateX(-100vh);
+    animation: slideRight 1s forwards;
+}
+
+.both .book-now {
+    animation-delay: 1s;
+}
+
+.both .know-more {
+    animation-delay: 1s;
+}
+
+
+@keyframes slideDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.img-f img {
+    opacity: 0;
+    transform: scale(0.5);
+    animation: zoomIn 1s forwards;
+    animation-delay: 1s;
+    display: block;
+}
+
+@keyframes zoomIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@keyframes slide {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.a-l {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: slide 1.2s forwards;
+    animation-delay: 1.2s;
+}
+
+@keyframes slid {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.image-2 {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: slid 0.8s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes back {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.back-2 {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: back 1.5s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes video {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.video {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation: video 2s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes four-b {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.four-b {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: four-b;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes four-n {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.button-a-h1 {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: four-n;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes four-v {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.buttons {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: four-v;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes five {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.five-page {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: five;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+
+@keyframes five-1 {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.five-page-1 {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: five-1;
+    animation-fill-mode: forwards;
+    animation-duration: 1.7s;
+    animation-delay: 1.7s;
+}
+
+@keyframes sex {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.both {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: sex;
+    animation-fill-mode: forwards;
+    animation-duration: 1.7s;
+    animation-delay: 1.7s;
+}
+
+@keyframes seven {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.seven-page {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: seven;
+    animation-fill-mode: forwards;
+    animation-duration: 1.7s;
+    animation-delay: 1.7s;
+}
+
+@keyframes eight {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.eight-page {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: eight;
+    animation-fill-mode: forwards;
+    animation-duration: 1.7s;
+    animation-delay: 1.7s;
+}
+
+.page-nine {
+    position: relative;
+    animation: scroll 20s linear infinite;
+    transform: translateY(100vh);
+    width: max-content;
+}
+
+.page-nine-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    animation: scroll 20s linear infinite;
+    transform: translateY(100vh);
+    width: max-content;
+    animation-name: scrollright;
+    gap: 20px;
+}
+
+.move.reverse {
+    animation-direction: reverse;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollright {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+@keyframes ten {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ten-page {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: ten;
+    animation-fill-mode: forwards;
+    animation-duration: 1.7s;
+    animation-delay: 1.7s;
+}
+
+@keyframes footer {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.footer {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: footer;
+    animation-fill-mode: forwards;
+    animation-duration: 1.7s;
+    animation-delay: 1.7s;
+}
+
+@keyframes footer-chah {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.footer-chah {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation-name: footer-chah;
+    animation-fill-mode: forwards;
+    animation-duration: 1.7s;
+    animation-delay: 1.7s;
 }
