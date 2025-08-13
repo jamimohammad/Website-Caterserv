@@ -1060,6 +1060,7 @@ input[type="email"] {
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 }
 
 .page-nine-1 {
@@ -1069,7 +1070,12 @@ input[type="email"] {
     width: max-content;
     animation-name: scrollright;
 }
-
+.page-9-1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  
+}
 
 @keyframes scroll {
     0% {
